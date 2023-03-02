@@ -1,0 +1,26 @@
+#GET ALL DATA
+GET http://localhost:3001/users HTTP/1.1
+Content-Type: application/json
+
+#ADD NEW ITEM
+###
+POST http://localhost:3001/users HTTP/1.1
+Content-Type: application/json
+ 
+ {
+    "title":"notty potert"
+ }
+
+#EDIT ITEM
+###
+PUT http://localhost:3001/users/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"Narayan"
+}
+
+#DELETE ITEM FROM STORE
+###
+DELETE http://localhost:3001/users/1 HTTP/1.1
+Content-Type: application/json

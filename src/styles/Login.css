@@ -1,0 +1,71 @@
+.login{
+    align-items: center;
+    width: stretch;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:100%;
+} 
+.login h1{
+    display: flex;
+}
+.login >h5{
+    color: rgb(213, 214, 214);
+    margin: 2rem 0 1rem 0;
+}
+
+.nav-logo-login{
+    margin: 1rem;
+    height: 4rem;
+}
+.login-setup{
+    font-size: large;
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    display:flex;
+    width: 60%;
+    flex-direction:column;
+    border-radius: .5rem;
+    border: .2rem solid rgb(156, 199, 248);
+}
+#email{
+    display: flex;
+}
+
+.login-form{
+    margin: 1.4rem 0 1.4rem 0;
+}
+
+.labels{
+    width: stretch;
+    display:inline-flex;
+    justify-content: space-between;
+}
+.forgot-link{
+    color: rgb(14, 119, 247);
+    text-decoration: none;
+}
+.login-form input{
+    border: .1rem solid rgb(168, 166, 166);
+    border-radius: .3rem;
+    padding: .5rem;
+    height: 3rem;
+    margin: .4rem 0 1.4rem 0;
+    width: stretch;
+}
+.login-form button{
+    border: .1rem solid rgb(176, 141, 141);
+    border-radius: .3rem;
+    background-image:linear-gradient( rgb(255, 255, 255), rgb(20, 186, 251));
+    height: 3rem;
+    width: stretch;
+    cursor: pointer;
+}
+.to-signin button{
+    cursor: pointer;
+    border-radius: .3rem;
+    border: .1rem solid rgb(162, 161, 161);
+    background-image:linear-gradient( rgb(255, 255, 255), rgb(200, 198, 198));
+    width: 54rem;
+    height: 3rem;
+}
