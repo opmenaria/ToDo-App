@@ -1,3 +1,6 @@
+#Go live on Github-Pages deployment link 
+https://opmenaria.github.io/ToDo-App/
+
 # Run these commands to start app
 npm run server
 npm run start
