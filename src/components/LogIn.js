@@ -22,7 +22,7 @@ export default function LogIn() {
         event.preventDefault()
         if (email.current.value === getEmail && password.current.value === getPassowrd) {
             localStorage.setItem("signIn", email.current.value)
-            navigate("/")
+            navigate("/ToDo-App")
             alert("Logged in successfully")
             window.location.reload()
         } else {
@@ -33,7 +33,7 @@ export default function LogIn() {
         <>
             {show ?
                 <div className='login'>
-                    <Link to="/">
+                    <Link to="/ToDo-App">
                         <img className="nav-logo-login" src="https://sixbytes.io/hibido/images/icon.png" alt="Logo"></img>
                     </Link>
                     <div className="login-setup">

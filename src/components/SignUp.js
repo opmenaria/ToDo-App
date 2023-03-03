@@ -28,7 +28,7 @@ export default function SignUp() {
         <>
             {showSignUp ? <LogIn /> :
                 <div className='login'>
-                    <Link to="/">
+                    <Link to="/ToDo-App">
                         <img className="nav-logo-login" src="https://sixbytes.io/hibido/images/icon.png" alt="Logo"></img>
                     </Link>
                     <div className="login-setup">

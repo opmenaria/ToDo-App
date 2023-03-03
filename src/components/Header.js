@@ -14,12 +14,12 @@ export default function Header() {
     const signIn = localStorage.getItem("signIn")
     return (
         <nav className="App-header">
-            <Link to="/">
+            <Link to="/ToDo-App">
                 <img className="App-logo" src="https://sixbytes.io/hibido/images/icon.png" alt="Logo"></img>
             </Link>
             <div className="nav-tools">
                 {signIn ? <><h6>{signIn}</h6>
-                    <Link to={"/"} className='nav-tool-link'>
+                    <Link to={"/ToDo-App"} className='nav-tool-link'>
                         <button className='btns' onClick={handleLogOut}><h5> LogOut</h5></button>
                     </Link></> : <><h6>Register to sign in</h6>
                     <Link to={"/login"} className='nav-tool-link'>
